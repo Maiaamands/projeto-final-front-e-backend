@@ -1,0 +1,37 @@
+{
+  "name": "toughts",
+  "version": "1.0.0",
+  "description": "5.1 - npm init - y  > ENTER - aguarde instalar o package json.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js localhost 3000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.2.3",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-handlebars": "^6.0.7",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.21",
+    "react": "^18.2.0",
+    "sequelize": "^6.29.2",
+    "session-file-store": "^1.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel26oliver/CASE-PROJETO-FINAL.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Daniel26oliver/CASE-PROJETO-FINAL/issues"
+  },
+  "homepage": "https://github.com/Daniel26oliver/CASE-PROJETO-FINAL#readme"
+}
